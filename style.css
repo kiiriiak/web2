@@ -1,0 +1,79 @@
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.bg-image{
+    background-image: url('https://img.freepik.com/free-vector/blue-geometric-seamless-pattern-abstract-background-vector-illustration_1142-12374.jpg?w=740&t=st=1684919435~exp=1684920035~hmac=ff932201e1ac5810f9e3c7c8a41e13a3b39d20de810e5113fcadf084d3d173cd');
+}
+
+.logo{
+    height: 28px;
+}
+
+.forma{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(156, 183, 231);
+}
+
+.btn btn-success{
+    margin-top: 15px;
+}
+
+.custom-navbar{
+    background-color:rgb(114, 155, 227);
+}
+
+.nav-link{
+    font-size: 1.1em;
+}
+
+.navbar li{
+    margin-right: 15px;
+}
+
+.nav-item {
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover {
+    transform: translateY(-3px);
+}
+
+#myCarousel{
+    
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    
+}
+
+@keyframes buttonScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    animation: buttonScale 0.5s infinite;
+}
+
